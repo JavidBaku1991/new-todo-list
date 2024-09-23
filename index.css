@@ -1,0 +1,170 @@
+
+h2 {
+    color: rgb(49, 49, 97);
+
+      text-align: center;
+  }
+
+
+.container{
+  max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #dbdbdb;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+  .task {
+  padding: 15px 20px;
+  margin: 10px 0;
+  background: linear-gradient(135deg, #ffffff, #f1f4f9);
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Task content */
+.task-content {
+  font-size: 18px;
+  color: #333;
+  flex-grow: 1;
+  padding-right: 15px;
+}
+
+/* Hover effect for the task */
+.task:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.task button {
+  padding: 8px 12px;
+  font-size: 14px;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.task button:hover {
+  background-color: #ff4c4c;
+  box-shadow: 0 4px 10px rgba(255, 108, 108, 0.3);
+}
+
+
+
+  .delete {
+    margin-right: 5px;
+  }
+
+  button, input{
+    float: right;
+  }
+
+
+
+  /* form */
+
+form#create-task {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background-color: #f7f9fc;
+  border-radius: 10px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+#new-task-content {
+  padding: 10px 15px;
+  width: 250px;
+  font-size: 16px;
+  border: 2px solid #dcdfe3;
+  border-radius: 25px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+#new-task-content:focus {
+  border-color: #5b9bd5;
+  box-shadow: 0 4px 10px rgba(91, 155, 213, 0.3);
+}
+
+form#create-task button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #5b9bd5;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form#create-task button:hover {
+  background-color: #3a78b1;
+  box-shadow: 0 4px 10px rgba(58, 120, 177, 0.3);
+}
+
+/* input */
+.mark-complete {
+ 
+  font-size: 16px;
+  width: 100%;
+  border: 2px solid #dcdfe3;
+  border-radius: 15px;
+  outline: none;
+  transition: all 0.3s ease;
+  background-color: #f9f9fc;
+}
+
+ .mark-complete{
+
+
+
+}
+
+.right{
+  display: flex;
+  flex-direction: row;
+}
+
+input[type="checkbox"] {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #4caf50;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #4caf50;
+}
+
+#filters {
+  margin: 20px 0;
+}
+
+.filter-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  margin-right: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filter-button:hover {
+  background-color: #2980b9;
+}
